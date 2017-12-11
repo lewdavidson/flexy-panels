@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vmin;
+}
+
+.box {
+  height: 200px;
+  box-shadow: 1px 1px 1px #000;
+  border: solid 1px black;
+  margin: 1vmin;
+  background-image: url("../img/tyler.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one {
+  flex: 1 1 400px;
+}
+.two {
+  flex: 1 1 200px;
+}
+
+.three {
+  flex: 1 1 200px;
+}
+
+.four {
+  flex: 1 1 200px;
+}
+
+.five {
+  flex: 1 1 200px;
+}
+
+.six {
+  flex: 1 1 200px;
+}
+
+.seven {
+  flex: 1 1 400px;
+}
+
+.eight {
+  flex: 1 1 200px;
+}
+
+.nine {
+  flex: 1 1 200px;
+}
